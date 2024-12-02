@@ -1,6 +1,6 @@
 /* heading + navigation */
 
-.heading {
+.heading, img {
     display: inline-block;
     background-color: rgb(62, 191, 191);
 }
