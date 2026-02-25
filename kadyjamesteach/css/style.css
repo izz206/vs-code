@@ -1,0 +1,64 @@
+:root{
+    --index-background-image: url(../pictures/pexels-timmossholder-2184346.jpg); /*landing page picture*/
+    --aboutme-background-image: url(../pictures/pexels-padrinan-2882509.jpg); /*about me page*/
+    --contact-background-image: url(../pictures/pexels-alex-andrews-271121-821754.jpg); /*contact picture*/
+    --lessons-background-image: url(../pictures/pexels-lum3n-44775-167682.jpg); /*lessons page*/
+    --lessons-biology-image: url(../pictures/pexels-googledeepmind-18069423.jpg);/*biology lessons*/
+    --lessons-chemistry-image: url(../pictures/pexels-pavel-danilyuk-8442641.jpg); /*chemistry lessons*/
+    --background-size: cover; /*background picture settings*/
+    --background-repeat: no repeat; /*background picture settings*/
+    --background-position: center center; /*background picture settings*/
+    --text-align: center; /*text position*/
+    --text-color1: black; /*text color-1*/
+    --text-color2: darkgreen; /*text color-2*/
+    --text-color3: white; /*text color-3*/
+    --padding-size: 16px; /*padding size*/
+    --margin-size: 18px; /*margin size*/
+    --fontsize1: 18px; /*fontsize-1*/
+    --fontsize2: 30px; /*fontsize-2*/
+    --fontsize3: 50px; /*fontsize-3*/
+    --fontfamily: Arial,sans-serif; /*fontfamily*/
+}
+
+/*background picture settings*/
+.background1{
+    background-image: var(--index-background-image);
+    background-size: var( --background-size);
+    background-repeat: var( --background-repeat);
+    background-position: var(--background-position);
+}
+
+.background2{
+    background-image: var(--aboutme-background-image);
+    background-size: var( --background-size);
+    background-repeat: var( --background-repeat);
+    background-position: var(--background-position);
+}
+
+.background3{
+    background-image: var(--contact-background-image);
+    background-size: var( --background-size);
+    background-repeat: var( --background-repeat);
+    background-position: var(--background-position);
+}
+
+.background4{
+    background-image: var(--lessons-background-image);
+    background-size: var( --background-size);
+    background-repeat: var( --background-repeat);
+    background-position: var(--background-position);
+}
+
+.background5{
+    background-image: var(--lessons-biology-image);
+    background-size: var( --background-size);
+    background-repeat: var( --background-repeat);
+    background-position: var(--background-position);
+}
+
+.background6{
+    background-image: var(--lessons-chemistry-image);
+    background-size: var( --background-size);
+    background-repeat: var( --background-repeat);
+    background-position: var(--background-position);
+}
